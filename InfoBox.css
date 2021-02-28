@@ -1,0 +1,33 @@
+.infoBox {
+    flex: 1 !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.infoBox__cases {
+    color: rgb(189, 32, 32);
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.infoBox__total {
+    color: gray;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    margin-top: 7px !important;
+}
+
+.infoBox--selected {
+    border-top: 7px solid greenyellow;
+}
+
+.infoBox--red {
+    border-color: Red;
+}
+
+.infoBox--cases--green {
+    color: green;
+}
